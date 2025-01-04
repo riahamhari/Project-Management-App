@@ -100,7 +100,6 @@ function App() {
     (task) => task.projectId === projectsState.selectedProjectId
   );
 
-  // console.log(projectsState);
   let content = (
     <SelectedProject
       project={selectedProject}
